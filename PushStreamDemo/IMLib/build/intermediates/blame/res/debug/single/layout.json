@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout\\notification_template_part_time.xml"
+    }
+]

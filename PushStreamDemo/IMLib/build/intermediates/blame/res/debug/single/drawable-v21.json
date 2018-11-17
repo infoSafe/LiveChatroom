@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\drawable-v21\\notification_action_background.xml"
+    }
+]

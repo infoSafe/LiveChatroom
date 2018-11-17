@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.live.demo.Activity.SWCameraStreamingActivity">
+
+    <com.live.demo.Ui.CameraPreviewFrameView
+        android:id="@+id/cameraPreview_surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_show_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="直播"
+        android:textColor="@color/pldroid_streaming_red"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/room_down_close" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/room_down_share" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:textColor="@color/pldroid_streaming_red"
+            android:textSize="20sp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="50dp"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\qny\\PLDroidPlayerDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f8fb78504ceabbdac3725402f2f8f2635fb1fdf3\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "F:\\qny\\PLDroidPlayerDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f8fb78504ceabbdac3725402f2f8f2635fb1fdf3\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "F:\\qny\\PLDroidPlayerDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f8fb78504ceabbdac3725402f2f8f2635fb1fdf3\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\qny\\PLDroidPlayerDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f8fb78504ceabbdac3725402f2f8f2635fb1fdf3\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\qny\\PLDroidPlayerDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f8fb78504ceabbdac3725402f2f8f2635fb1fdf3\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    }
+]

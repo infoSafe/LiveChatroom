@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "E:\\gitspace\\LiveChatroom\\PushStreamDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout-v16\\notification_template_custom_big.xml"
+    }
+]

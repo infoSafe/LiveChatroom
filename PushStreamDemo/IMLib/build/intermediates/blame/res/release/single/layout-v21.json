@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "E:\\gitspace\\LiveBroadcastDemo\\IMLib\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.0.0\\res\\layout-v21\\notification_action.xml"
+    }
+]
