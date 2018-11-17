@@ -6,6 +6,7 @@ import android.net.NetworkInfo;
 import android.widget.Toast;
 
 public class Utils {
+    public static  String rommId = "000001";
 
     public static boolean isNetworkAvailable(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);

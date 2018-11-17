@@ -14,8 +14,8 @@ public class StreamingApplication extends Application {
     public void onCreate() {
         super.onCreate();
         //初始化融云
-        RongIMClient.init(getApplicationContext(),"appkey");
-        RongIMClient.connect("Token", new RongIMClient.ConnectCallback() {
+        RongIMClient.init(getApplicationContext(),"6tnym1br646x7");
+        RongIMClient.connect("tzALaLOx2aUOgCwZjHvnmcKLsYxYZZV7xk6RL58N9SSWh83/aNssu2yppdhbdd82JzRZs5bPhyc=", new RongIMClient.ConnectCallback() {
             @Override
             public void onTokenIncorrect() {
                 Log.d(TAG, "onTokenIncorrect: ===>");

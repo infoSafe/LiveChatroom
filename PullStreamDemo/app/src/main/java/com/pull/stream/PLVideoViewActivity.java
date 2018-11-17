@@ -50,24 +50,24 @@ public class PLVideoViewActivity extends VideoPlayerBaseActivity implements View
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.pull.stream.R.layout.activity_pl_video_view);
-        tv_show = findViewById(com.pull.stream.R.id.tv_show);
+        setContentView(R.layout.activity_pl_video_view);
+        tv_show = findViewById(R.id.tv_show);
         String videoPath = getIntent().getStringExtra("videoPath");
         mIsLiveStreaming = getIntent().getIntExtra("liveStreaming", 1) == 1;
 
-        mVideoView = findViewById(com.pull.stream.R.id.VideoView);
+        mVideoView = findViewById(R.id.VideoView);
 
-        View loadingView = findViewById(com.pull.stream.R.id.LoadingView);
+        View loadingView = findViewById(R.id.LoadingView);
         mVideoView.setBufferingIndicator(loadingView);
 
-        View mCoverView = findViewById(com.pull.stream.R.id.CoverView);
+        View mCoverView = findViewById(R.id.CoverView);
         mVideoView.setCoverView(mCoverView);
 
-        mStatInfoTextView = findViewById(com.pull.stream.R.id.StatInfoTextView);
+        mStatInfoTextView = findViewById(R.id.StatInfoTextView);
 
-        et_input = findViewById(com.pull.stream.R.id.et_input);
+        et_input = findViewById(R.id.et_input);
 
-        tv_send = findViewById(com.pull.stream.R.id.tv_send);
+        tv_send = findViewById(R.id.tv_send);
         tv_send.setOnClickListener(this);
 
         // 1 -> hw codec enable, 0 -> disable [recommended]
@@ -126,7 +126,7 @@ public class PLVideoViewActivity extends VideoPlayerBaseActivity implements View
      * @Description: 加入聊天室
      */
     public void joinChatRoom(){
-        RongIMClient.getInstance().joinChatRoom("222222", -1, new RongIMClient.OperationCallback() {
+        RongIMClient.getInstance().joinChatRoom(Utils.rommId, -1, new RongIMClient.OperationCallback() {
             @Override
             public void onSuccess() {
                 ChatroomWelcome message = new ChatroomWelcome();
@@ -154,7 +154,7 @@ public class PLVideoViewActivity extends VideoPlayerBaseActivity implements View
      */
     public  void sendMessage(final MessageContent msgContent) {
 
-        Message msg = Message.obtain("222222", Conversation.ConversationType.CHATROOM, msgContent);
+        Message msg = Message.obtain(Utils.rommId, Conversation.ConversationType.CHATROOM, msgContent);
 
         RongIMClient.getInstance().sendMessage(msg, null, null, new IRongCallback.ISendMessageCallback() {
             @Override
@@ -195,7 +195,7 @@ public class PLVideoViewActivity extends VideoPlayerBaseActivity implements View
         super.onDestroy();
         mVideoView.stopPlayback();
         //退出聊天室
-        RongIMClient.getInstance().quitChatRoom("222222",new RongIMClient.OperationCallback() {
+        RongIMClient.getInstance().quitChatRoom(Utils.rommId,new RongIMClient.OperationCallback() {
             @Override
             public void onSuccess() {
                 ChatroomWelcome message = new ChatroomWelcome();

@@ -57,28 +57,28 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.pull.stream.R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
         TextView mVersionInfoTextView = findViewById(com.pull.stream.R.id.version_info);
         mVersionInfoTextView.setText("版本号: " + BuildConfig.VERSION_NAME + "\n");
         mVersionInfoTextView.append("编译时间： " + getBuildTimeDescription());
 
-        mEditText = findViewById(com.pull.stream.R.id.VideoPathEdit);
+        mEditText = findViewById(R.id.VideoPathEdit);
         mEditText.setText(DEFAULT_TEST_URL);
 
-        mStreamingTypeRadioGroup = findViewById(com.pull.stream.R.id.StreamingTypeRadioGroup);
-        mDecodeTypeRadioGroup = findViewById(com.pull.stream.R.id.DecodeTypeRadioGroup);
+        mStreamingTypeRadioGroup = findViewById(R.id.StreamingTypeRadioGroup);
+        mDecodeTypeRadioGroup = findViewById(R.id.DecodeTypeRadioGroup);
 
-        mActivitySpinner = findViewById(com.pull.stream.R.id.TestSpinner);
+        mActivitySpinner = findViewById(R.id.TestSpinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, TEST_ACTIVITY_ARRAY);
         mActivitySpinner.setAdapter(adapter);
         mActivitySpinner.setSelection(2);
 
-        mVideoCacheCheckBox = findViewById(com.pull.stream.R.id.CacheCheckBox);
-        mLoopCheckBox = findViewById(com.pull.stream.R.id.LoopCheckBox);
-        mVideoDataCallback = findViewById(com.pull.stream.R.id.VideoCallback);
-        mAudioDataCallback = findViewById(com.pull.stream.R.id.AudioCallback);
-        mDisableCheckBox = findViewById(com.pull.stream.R.id.DisableLog);
+        mVideoCacheCheckBox = findViewById(R.id.CacheCheckBox);
+        mLoopCheckBox = findViewById(R.id.LoopCheckBox);
+        mVideoDataCallback = findViewById(R.id.VideoCallback);
+        mAudioDataCallback = findViewById(R.id.AudioCallback);
+        mDisableCheckBox = findViewById(R.id.DisableLog);
 
         mVideoCacheCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -89,9 +89,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mLivingCheckBox = findViewById(com.pull.stream.R.id.RadioLiveStreaming);
-        mPlayCheckBox = findViewById(com.pull.stream.R.id.RadioPlayback);
-        mStartSetting = findViewById(com.pull.stream.R.id.StartSetting);
+        mLivingCheckBox = findViewById(R.id.RadioLiveStreaming);
+        mPlayCheckBox = findViewById(R.id.RadioPlayback);
+        mStartSetting = findViewById(R.id.StartSetting);
 
         mLivingCheckBox.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mStartPosEditText = findViewById(com.pull.stream.R.id.TextStartPos);
+        mStartPosEditText = findViewById(R.id.TextStartPos);
 
     }
 
@@ -180,14 +180,14 @@ public class MainActivity extends AppCompatActivity {
         }
         Intent intent = new Intent(this, cls);
         intent.putExtra("videoPath", videoPath);
-        if (mDecodeTypeRadioGroup.getCheckedRadioButtonId() == com.pull.stream.R.id.RadioHWDecode) {
+        if (mDecodeTypeRadioGroup.getCheckedRadioButtonId() == R.id.RadioHWDecode) {
             intent.putExtra("mediaCodec", AVOptions.MEDIA_CODEC_HW_DECODE);
-        } else if (mDecodeTypeRadioGroup.getCheckedRadioButtonId() == com.pull.stream.R.id.RadioSWDecode) {
+        } else if (mDecodeTypeRadioGroup.getCheckedRadioButtonId() == R.id.RadioSWDecode) {
             intent.putExtra("mediaCodec", AVOptions.MEDIA_CODEC_SW_DECODE);
         } else {
             intent.putExtra("mediaCodec", AVOptions.MEDIA_CODEC_AUTO);
         }
-        if (mStreamingTypeRadioGroup.getCheckedRadioButtonId() == com.pull.stream.R.id.RadioLiveStreaming) {
+        if (mStreamingTypeRadioGroup.getCheckedRadioButtonId() ==R.id.RadioLiveStreaming) {
             intent.putExtra("liveStreaming", 1);
         } else {
             intent.putExtra("liveStreaming", 0);

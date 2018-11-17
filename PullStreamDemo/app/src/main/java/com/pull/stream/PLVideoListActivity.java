@@ -26,7 +26,7 @@ public class PLVideoListActivity extends AppCompatActivity {
             mPlayList.add(i, getIntent().getStringExtra("videoPath"));
         }
         mAdapter = new VideoListAdapter(mPlayList);
-        mVideoListView = findViewById(com.pull.stream.R.id.video_list);
+        mVideoListView = findViewById(R.id.video_list);
         mVideoListView.setHasFixedSize(true);
         mVideoListView.setLayoutManager(new LinearLayoutManager(this));
         mVideoListView.setAdapter(mAdapter);
